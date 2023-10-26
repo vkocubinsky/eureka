@@ -1,5 +1,10 @@
 server:
   port: 8761
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 eureka:
   instance:
     hostname: localhost
